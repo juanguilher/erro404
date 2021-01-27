@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 24rem;
+}
+section{
+     display: flex;
+     align-items: center;
+     height: 100vh;
+     max-width: 60%;
+     margin: auto;
+     flex-direction: column;
+     justify-content: center;
+}
+
+@media(min-width:600px){
+     section{
+         flex-direction: row;
+     }
+    }
